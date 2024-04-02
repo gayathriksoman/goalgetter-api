@@ -3,7 +3,7 @@ const allowedOrigins = {
         'http://localhost:3000'
     ],
     'production': [
-        'https://www.goalgetter.onrender.com',
+        'https://goalgetter.onrender.com',
     ]
 }
 console.log(allowedOrigins[process.env.NODE_ENV])
